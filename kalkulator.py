@@ -1,7 +1,9 @@
-print("====================================")
+garis = "=" * 40
+
+print(garis)
 print("Selamat datang di Program Kalkulator Sederhana dengan menggunakan Python")
 print("Mohon maaf jika ada kesalahan dalam program ini ya!")
-print("====================================")
+print(garis)
 
 print("Silahkan pilih operasi yang ingin dilakukan sebagai berikut:")
 print("1. Penjumlahan")
@@ -9,13 +11,13 @@ print("2. Pengurangan")
 print("3. Perkalian")
 print("4. Pembagian")
 
-print("=====================================")
+print(garis)
 
 operasi = int(input("Masukkan operasi yang dipilih (1-4): "))
 angka1 = float(input("Masukkan angka pertama: "))
 angka2 = float(input("Masukkan angka kedua: "))
 
-print("=====================================")
+print(garis)
 
 if operasi == 1:
     hasil = angka1 + angka2
@@ -37,4 +39,4 @@ if operasi == 4:
         print("❌ Pembagian dengan nol tidak diperbolehkan.")
         
 print("Terima kasih telah menggunakan program ini!")
-print("=====================================")
+print(garis)
