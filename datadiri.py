@@ -20,20 +20,21 @@ if sch == "mahasiswa":
     print(f"Umur anda sekarang adalah {age} tahun.")
     print(f"Anda adalah seorang {sch} semester {smt} dari kampus {kampus}.")
 
-if sch == "kerja":
+elif sch == "kerja":
     kerja = input("Masukkan nama tempat kerja anda: ")
     jbt = input("Masukkan jabatan anda: ")
     print(garis)
     print(f"Nama panjang anda adalah {name}, dan nama panggilan anda adalah {nama}.")
     print(f"Umur anda sekarang adalah {age} tahun, dan anda sekarang {sch} di {kerja} sebagai {jbt}.")
 
-if sch == "nganggur":
+elif sch == "nganggur":
     print(garis)
     print(f"Nama panjang anda adalah {name}, dan nama panggilan anda adalah {nama}.")
     print(f"Umur anda sekarang adalah {age} tahun, dan anda sekarang adalah seorang pengagguran ga guna.")
 
-elif sch not in ["mahasiswa", "kerja", "nganggur"]:
+else:
     print(garis)
     print("Status tidak valid, silakan masukkan Mahasiswa, Kerja, atau Nganggur.")
 print(garis)
 print("Terima kasih sudah mengisi data diri anda!")
+
